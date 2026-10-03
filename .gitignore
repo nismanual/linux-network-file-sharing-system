@@ -1,0 +1,23 @@
+# Compiled executables
+client/client
+server/server
+driver_test/driver_test
+
+# Linux kernel module build files
+driver/*.ko
+driver/*.o
+driver/*.mod
+driver/*.mod.c
+driver/*.mod.o
+driver/Module.symvers
+driver/modules.order
+driver/.*.cmd
+driver/.module-common.o
+
+# Temporary files
+*~
+*.swp
+*.swo
+
+# Logs
+logs/*.log
